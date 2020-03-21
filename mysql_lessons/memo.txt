@@ -1,0 +1,9 @@
+create user dbuser01@localhost identified by (GAVAkkig2';
+grant all on mydb01.* to dbuser01@localhost;
+mysql -u dbuser01 -p mydb01
+→Password入力
+mysql -u dbuser01 -p(Password入力のオプション)
+select user();
+show databases;
+drop database mydb01;
+drop user dbuser01@localhost
