@@ -7,3 +7,4 @@ select user();
 show databases;
 drop database mydb01;
 drop user dbuser01@localhost
+//hogehoge
